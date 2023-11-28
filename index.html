@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mad Lib Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>MADLIB GAME</h1>
+    <form action="/itc505/lab7" method="post">
+      <label for="noun">Noun:</label>
+      <input type="text" name="noun" required />
+
+      <label for="adjective">Adjective:</label>
+      <input type="text" name="adjective" required />
+
+      <label for="verb">Verb:</label>
+      <input type="text" name="verb" required />
+
+      <label for="pluralNoun">Plural Noun:</label>
+      <input type="text" name="pluralNoun" required />
+
+      <label for="adverb">Adverb:</label>
+      <input type="text" name="adverb" required />
+
+      <input type="submit" value="Generate Mad Lib" />
+    </form>
+
+    <div id="madLibMessage"></div>
+  </body>
+</html>
